@@ -29,7 +29,6 @@ export default class Header extends Component {
                 <img src={pintNav} alt='pintrest icon'/>
                 <img src={rssNav} alt='rss icon'/>
                 <img src={mailNav} alt='email icon'/>
-
                 </div>
             </div>
         )
