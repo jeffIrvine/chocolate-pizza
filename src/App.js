@@ -4,6 +4,7 @@ import Title from './Title.js';
 import Image from './Image.js';
 import Article from './Article.js';
 import NotePad from './NotePad.js';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Image />
         <Article />
         <NotePad />
+        <Footer />
     </div>
   );
 }
