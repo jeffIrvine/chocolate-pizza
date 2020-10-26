@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Header.js';
 import Title from './Title.js';
 import Image from './Image.js';
+import Article from './Article.js';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Header />
         <Title />
         <Image />
+        <Article />
     </div>
   );
 }
