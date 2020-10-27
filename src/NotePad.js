@@ -2,19 +2,28 @@ import React, { Component } from 'react'
 import noteImage from './assets/list-bg.png'
 
 
-export default class NotePad extends Component {
+export class NotePadImage extends Component {
     render() {
         return (
             <div className='ingredients'>
-                <div>
-                    <img src={noteImage} alt='note pad'/>
-                </div>
+            <img src={noteImage} alt='note pad'/>
+            </div>
+        )
+    }
+}
+
+
+export default class NotePad extends Component {
+    render() {
+        return (
+            <div className='list-style'>
+
                 <div className='list-one'>
                     <p>
                         <input type='checkbox' />
-                        <label className='strikethrough'>1 1/2 cups milk</label>
+                        <label className='strikethrough'>{this.props.amount}{this.props.name}</label>
                     </p>
-                    <p>
+                    {/* <p>
                         <input type='checkbox' />
                         <label className='strikethrough'> 1/2 cup mascarpone</label>
                     </p>
@@ -33,9 +42,9 @@ export default class NotePad extends Component {
                     <p>
                         <input type='checkbox' />
                         <label className='strikethrough' >2-4 tbsp water</label>
-                    </p>
+                    </p> */}
                 </div>
-                <div className='list-two'>
+                {/* <div className='list-two'>
                     <p>
                         <input type='checkbox' />
                         <label className='strikethrough'>1 1/2 cups heavy cream</label>
@@ -60,8 +69,10 @@ export default class NotePad extends Component {
                         <input type='checkbox' />
                         <label className='strikethrough'>1 cup honey roasted pecans, roughly chopped</label>
                     </p>
-                </div>
+                </div> */}
             </div>
         )
     }
 }
+
+
