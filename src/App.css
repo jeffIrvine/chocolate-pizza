@@ -48,7 +48,7 @@ body {
 
 .blog-caption {
   font-size: 0.85em;
-  color: gray;
+  color:rgb(117, 117, 117);
 }
 
 .title-div {
@@ -65,7 +65,7 @@ body {
 }
 
 .subtitle-text {
-  color: gray;
+  color:rgb(117, 117, 117);
   
 }
 
@@ -73,6 +73,37 @@ body {
   display: flex;
   justify-content: right;
   align-items: flex-end;
-  color: gray;
+  color: rgb(117, 117, 117);
   font-size: .85em;
+}
+
+.ingredients {
+  width: 100%;
+  font-family: serif;
+  position: relative;
+  text-align: center;
+  font-size: 1.25em;
+  color: rgb(117, 117, 117);
+}
+
+.list-one {
+  position: absolute;
+  text-align: left;
+  top: 8px;
+  left: 70px;
+  color: rgb(117, 117, 117);
+  align-items: flex-start;    
+}
+
+.list-two {
+  position: absolute;
+  text-align: left;
+  top: 8px;
+  right: 40px;
+  color: rgb(117, 117, 117);
+  align-items: flex-start;
+}
+
+input[type=checkbox]:checked + label.strikethrough {
+  text-decoration: line-through;
 }
