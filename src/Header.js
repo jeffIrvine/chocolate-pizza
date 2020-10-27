@@ -1,13 +1,4 @@
 import React, { Component } from 'react'
-import logo from './assets/logo.png';
-import fbNav from './assets/fb-icon.png';
-import flicNav from './assets/flic-icon.png';
-import googleNav from './assets/gp-icon.png';
-import instaNav from './assets/insta-icon.png';
-import mailNav from './assets/mail-icon.png';
-import rssNav from './assets/rss-icon.png';
-import twitterNav from './assets/twit-icon.png';
-import pintNav from './assets/pint-icon.png';
 
 export default class Header extends Component {
     render() {
@@ -15,7 +6,7 @@ export default class Header extends Component {
             <div class='header-div'>
 
                 <div class='blog-div'>
-                <img src={logo} alt='logo icon' class='header-logo' />
+                <img src='./assets/logo.png' alt='logo icon' class='header-logo' />
                     <div className='blog-name'>
                         Delicious
                     </div>
@@ -24,14 +15,30 @@ export default class Header extends Component {
                     </div>
                 </div>
                 <div className='nav-list'>
-                <img src={fbNav} alt='logo icon'/>
-                <img src={twitterNav} alt='twitter icon'/>
-                <img src={googleNav} alt='google icon'/>
-                <img src={instaNav} alt='instagram icon'/>
-                <img src={flicNav} alt='flic icon'/>
-                <img src={pintNav} alt='pintrest icon'/>
-                <img src={rssNav} alt='rss icon'/>
-                <img src={mailNav} alt='email icon'/>
+                    <a href='https://www.facebook.com'>
+                        <img src='./assets/fb-icon.png' alt='logo icon'/>
+                    </a>
+                    <a href='https://www.twitter.com'>
+                        <img src='./assets/twit-icon.png' alt='twitter icon'/>
+                    </a>
+                    <a href='https://play.google.com'>
+                        <img src='./assets/gp-icon.png' alt='google icon'/>
+                    </a>
+                    <a href='https://www.instagram.com'>
+                        <img src='./assets/insta-icon.png' alt='instagram icon'/>
+                    </a>
+                    <a href='https://www.flickr.com'>
+                        <img src='./assets/flic-icon.png' alt='flic icon'/>
+                    </a>
+                    <a href='https://www.pinterest.com'>
+                        <img src='./assets/pint-icon.png' alt='pinterest icon'/>
+                    </a>
+                    <a href='https://rss.com'>
+                        <img src='./assets/rss-icon.png' alt='rss icon'/>
+                    </a>
+                    <a href='https://www.gmail.com'>
+                        <img src='./assets/mail-icon.png' alt='email icon'/>
+                    </a>
                 </div>
             </div>
         )

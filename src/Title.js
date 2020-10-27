@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import print from './assets/print-icon.png';
 
 export default class Title extends Component {
     render() {
@@ -14,7 +13,7 @@ export default class Title extends Component {
                     </div>
                 </div>
                 <div className="print-div">
-                    <img src={print} alt='print icon' />
+                    <img src='./assets/print-icon.png' alt='print icon' />
                     PRINT
                 </div>
             </div>
