@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
-import noteImage from './assets/list-bg.png'
 
 
 export class NotePadImage extends Component {
     render() {
         return (
             <div className='ingredients'>
-            <img src={noteImage} alt='note pad'/>
+            <img src='./assets/list-bg.png' alt='note pad'/>
             </div>
         )
     }

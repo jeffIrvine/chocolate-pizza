@@ -3,10 +3,10 @@ import React, { Component } from 'react'
 export default class Header extends Component {
     render() {
         return (
-            <div class='header-div'>
+            <div className='header-div'>
 
-                <div class='blog-div'>
-                <img src='./assets/logo.png' alt='logo icon' class='header-logo' />
+                <div className='blog-div'>
+                <img src='./assets/logo.png' alt='logo icon' className='header-logo' />
                     <div className='blog-name'>
                         Delicious
                     </div>

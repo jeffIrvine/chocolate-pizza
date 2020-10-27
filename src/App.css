@@ -117,3 +117,15 @@ body {
 input[type=checkbox]:checked + label.strikethrough {
   text-decoration: line-through;
 }
+
+.footer-logo, .final-text {
+  text-align: center;
+}
+
+.share-button {
+  float: right;
+}
+
+button {
+  background-color: rgb(205, 92, 92);
+}

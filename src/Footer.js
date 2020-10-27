@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
-import vanPic from './assets/van-pic.png'
-import logo from './assets/small-logo.png'
 
 export default class Footer extends Component {
     render() {
         return (
             <div>
+                <div className='share-button'>
+                    <button >SHARE RECIPE</button>
+                </div>
                 <div className='author-image'>
-                    <img src={vanPic} alt='Author Vanessa'/>
+                    <img src='./assets/van-pic.png' alt='Author Vanessa'/>
                 </div>
                 <p className='author-name'>
                     Vanessa Stevenson  
@@ -15,9 +16,9 @@ export default class Footer extends Component {
                 <p className='author-bio'>
                     Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.
                 </p>
-                <button className='share-button'>SHARE RECIPE</button>
+
                 <div className='footer-logo'>
-                    <img src={logo} alt='logo'/>
+                    <img src='./assets/small-logo.png' alt='logo'/>
                 </div>
                 <div className='final-text'>
                     <div>
