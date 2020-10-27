@@ -1,5 +1,6 @@
 .App {
   text-align: left;
+  margin: 40px;
 }
 
 .App-logo {
@@ -35,4 +36,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  margin: auto;
+  width: 1000px;
+}
+
+.header-div {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.header-logo {
+  float: left;
+} 
+
+.blog-div {
+  float: left;
+  width: 300px;
+}
+
+
+.blog-name {
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: cursive;
+}
+
+.blog-caption {
+  font-size: 0.85em;
+  color: gray;
 }

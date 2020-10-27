@@ -12,13 +12,16 @@ import pintNav from './assets/pint-icon.png';
 export default class Header extends Component {
     render() {
         return (
-            <div>
-                <img src={logo} alt='logo icon'/>
-                <div className=''>
-                    Delicious
-                </div>
-                <div className=''>
-                    THE BEST FOOD BLOG ON THE WEB
+            <div class='header-div'>
+
+                <div class='blog-div'>
+                <img src={logo} alt='logo icon' class='header-logo' />
+                    <div className='blog-name'>
+                        Delicious
+                    </div>
+                    <div className='blog-caption'>
+                        THE BEST FOOD BLOG ON THE WEB
+                    </div>
                 </div>
                 <div className='nav-list'>
                 <img src={fbNav} alt='logo icon'/>
