@@ -82,19 +82,10 @@ body {
   font-family: serif;
   position: relative;
   text-align: center;
-  opacity: 25%;
   font-size: 1.25em;
   color: rgb(117, 117, 117);
 }
 
-/* .list-one {
-  position: absolute;
-  text-align: left;
-  top: 8px;
-  left: 70px;
-  color: rgb(117, 117, 117);
-  align-items: flex-start;    
-} */
 
 .list-style {
   position: relative;
@@ -103,15 +94,6 @@ body {
   left: 70px;
   color: rgb(117, 117, 117);
   align-items: flex-start;    
-}
-
-.list-two {
-  position: absolute;
-  text-align: left;
-  top: 8px;
-  right: 40px;
-  color: rgb(117, 117, 117);
-  align-items: flex-start;
 }
 
 input[type=checkbox]:checked + label.strikethrough {
