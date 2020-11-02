@@ -3,7 +3,7 @@ import Header from './Header.js';
 import Title from './Title.js';
 import Image from './Image.js';
 import Article from './Article.js';
-import IngredientList from './NotePad.js';
+import IngredientList from '.IngredientList.js';
 import Footer from './Footer';
 import { NotePadImage } from './NotePad.js';
 
@@ -15,11 +15,12 @@ function App() {
         <Image />
         <Article />
         <NotePadImage />
-        <IngredientList 
+        <IngredientList />
+        {/* <IngredientList 
           name=' milk' 
           amount='1 1/2' />
         <IngredientList 
-          name=' mascarpone' 
+          name=' marscarpone' 
           amount='1/2 cup' />
         <IngredientList 
           name=' pink salt' 
@@ -50,7 +51,7 @@ function App() {
           amount='2 tbsp' />
         <IngredientList 
           name='honey roasted pecans, roughly chopped' 
-          amount='1 cup' />
+          amount='1 cup' /> */}
         <Footer />
     </div>
   );
