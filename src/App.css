@@ -1,27 +1,7 @@
-.App {
-  text-align: left;
-  margin: 40px;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 body {
   margin: auto;
-  width: 1000px;
+  padding: 50px;
+  width: 900px;
 }
 
 .header-div {
@@ -110,4 +90,31 @@ input[type=checkbox]:checked + label.strikethrough {
 
 button {
   background-color: rgb(205, 92, 92);
+}
+
+
+
+
+.notepad-image {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.list-one {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: rgb(117, 117, 117);
+  align-items: flex-start;    
+}
+
+.list-two {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  color: rgb(117, 117, 117);
+  align-items: flex-start;
 }

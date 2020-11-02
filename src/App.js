@@ -5,7 +5,7 @@ import Image from './Image.js';
 import Article from './Article.js';
 import IngredientList from '.IngredientList.js';
 import Footer from './Footer';
-import { NotePadImage } from './NotePad.js';
+import NotepadImage from './NotepadImage.js';
 
 function App() {
   return (
@@ -14,9 +14,17 @@ function App() {
         <Title />
         <Image />
         <Article />
+<<<<<<< HEAD
+
+        <div className='notepad-image'>
+        <NotepadImage />
+        <IngredientList 
+          className='list-one'
+=======
         <NotePadImage />
         <IngredientList />
         {/* <IngredientList 
+>>>>>>> 221a151d64e2ba959c539acaefcc64f42ca36714
           name=' milk' 
           amount='1 1/2' />
         <IngredientList 
@@ -35,6 +43,7 @@ function App() {
           name=' water' 
           amount='2-4 tbsp' />
         <IngredientList 
+          className='list-two'
           name=' heavy cream' 
           amount='1 1/2 cups' />
         <IngredientList 
@@ -51,7 +60,14 @@ function App() {
           amount='2 tbsp' />
         <IngredientList 
           name='honey roasted pecans, roughly chopped' 
+<<<<<<< HEAD
+          amount='1 cup' />
+        </div>
+
+
+=======
           amount='1 cup' /> */}
+>>>>>>> 221a151d64e2ba959c539acaefcc64f42ca36714
         <Footer />
     </div>
   );
