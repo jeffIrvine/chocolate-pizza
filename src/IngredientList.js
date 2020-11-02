@@ -5,7 +5,7 @@ export default class IngredientList extends Component {
     render() {
         return (
             <div>
-                <div>
+                <div className='item-list'>
                     <IngredientItem 
                     className='list-one'
                     name=' milk' 
