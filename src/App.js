@@ -3,7 +3,7 @@ import Header from './Header.js';
 import Title from './Title.js';
 import Image from './Image.js';
 import Article from './Article.js';
-import IngredientList from './NotePad.js';
+import IngredientList from '.IngredientList.js';
 import Footer from './Footer';
 import NotepadImage from './NotepadImage.js';
 
@@ -14,15 +14,21 @@ function App() {
         <Title />
         <Image />
         <Article />
+<<<<<<< HEAD
 
         <div className='notepad-image'>
         <NotepadImage />
         <IngredientList 
           className='list-one'
+=======
+        <NotePadImage />
+        <IngredientList />
+        {/* <IngredientList 
+>>>>>>> 221a151d64e2ba959c539acaefcc64f42ca36714
           name=' milk' 
           amount='1 1/2' />
         <IngredientList 
-          name=' mascarpone' 
+          name=' marscarpone' 
           amount='1/2 cup' />
         <IngredientList 
           name=' pink salt' 
@@ -54,10 +60,14 @@ function App() {
           amount='2 tbsp' />
         <IngredientList 
           name='honey roasted pecans, roughly chopped' 
+<<<<<<< HEAD
           amount='1 cup' />
         </div>
 
 
+=======
+          amount='1 cup' /> */}
+>>>>>>> 221a151d64e2ba959c539acaefcc64f42ca36714
         <Footer />
     </div>
   );
