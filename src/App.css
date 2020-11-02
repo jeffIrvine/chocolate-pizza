@@ -10,6 +10,10 @@ body {
   
 }
 
+.nav-list {
+float: right;
+}
+
 .header-logo {
   float: left;
 } 
@@ -102,7 +106,6 @@ button {
 }
 
 .list-one {
-  position: absolute;
   top: 8px;
   left: 16px;
   color: rgb(117, 117, 117);
@@ -112,7 +115,6 @@ button {
 .list-two {
   display: flex;
   justify-content: flex-end;
-  position: absolute;
   top: 8px;
   right: 16px;
   color: rgb(117, 117, 117);
